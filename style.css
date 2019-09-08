@@ -8,14 +8,14 @@ body {
 
 @font-face {
   font-family: Open Sans;
-  src: url(https://github.com/Epakneo/epakneo-adaptive/blob/master/fonts/OpenSans-Regular.woff);
+  src: url(https://github.com/epakneo/epakneo-adaptive/blob/master/fonts/OpenSans-Regular.woff);
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: Open Sans;
-  src: url(https://github.com/Epakneo/epakneo-adaptive/blob/master/fonts/OpenSans-Bold.woff);
+  src: url(https://github.com/epakneo/epakneo-adaptive/blob/master/fonts/OpenSans-Bold.woff);
   font-weight: 700;
   font-style: normal;
 }
