@@ -44,7 +44,7 @@ body {
     bottom: 0;
     left: 0;
   }
-  .container {
+  .logo-surface {
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
@@ -52,13 +52,17 @@ body {
     position: relative;
     z-index: 1;
   }
-  .logo-surface {
+  .logo-surface:hover {
+    opacity: 0.7;
+  }
+  .logo-surface-svg {
     fill: #ffffff;
   }
   .wrapper {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    flex-direction: column;
+    min-height: 130px;
     position: relative;
     z-index: 1;
     margin: 123px auto 75px;
@@ -275,7 +279,7 @@ body {
     font-size: 50px;
     text-transform: uppercase;
     color: #e7e7e7;
-    margin: 0 20px 230px;
+    margin: 0 20px 222px;
   }
   .players-connection-article {
     display: flex;
@@ -392,5 +396,277 @@ body {
     font-size: 15px;
     margin: 0 20px;
     color: #ffffff;
+  }
+
+  .actions {
+    box-sizing: border-box;
+    min-width: 320px;
+    padding-top: 25px;
+    height: 1686px;
+    position: relative;
+    padding: 0;
+  }
+  .beactive {
+    box-sizing: border-box;
+    height: 563px;
+  }
+  .beactive-pic {
+    height: 351px;
+    width: 100%;
+    background-image: url(https://raw.githubusercontent.com/epakneo/epakneo-adaptive/master/img/be-active_640.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .number {
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-top: -60px;
+    width: 70px;
+    height: 70px;
+    background: #5e42b0;
+    color: #f5f6f7;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .numb {
+    margin: 22px auto 28px;
+    position: relative;
+  }
+  .numb:after {
+    position: absolute;
+    content: "";
+    background-color: #8f7bc8;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: -5px;
+    border-radius: 2px;
+  }
+  .beactive-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 20px;
+    height: 202px;
+  }
+  .beactive-article-head {
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: #e7e7e7;
+    font-size: 28px;
+    margin: 0 0 10px;
+  }
+  .beactive-text {
+    font-size: 16px;
+    margin: 0;
+    color: #000000;
+  }
+
+  .findcontact {
+    box-sizing: border-box;
+    height: 547px;
+  }
+  .findcontact-pic {
+    height: 351px;
+    width: 100%;
+    background-image: url(https://raw.githubusercontent.com/epakneo/epakneo-adaptive/master/img/find-contact_640.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .number {
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-top: -60px;
+    width: 70px;
+    height: 70px;
+    background: #5e42b0;
+    color: #f5f6f7;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .numb {
+    margin: 22px auto 28px;
+    position: relative;
+  }
+  .numb:after {
+    position: absolute;
+    content: "";
+    background-color: #8f7bc8;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: -5px;
+    border-radius: 2px;
+  }
+  .findcontact-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 20px;
+    height: 186px;
+  }
+  .findcontact-article-head {
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: #e7e7e7;
+    font-size: 28px;
+    margin: 0 0 10px;
+  }
+  .findcontact-text {
+    font-size: 16px;
+    margin: 0;
+    color: #000000;
+  }
+
+  .workit {
+    box-sizing: border-box;
+    height: 576px;
+  }
+  .workit-pic {
+    height: 351px;
+    width: 100%;
+    background-image: url(https://raw.githubusercontent.com/epakneo/epakneo-adaptive/master/img/work-it_640.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .number {
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-top: -60px;
+    width: 70px;
+    height: 70px;
+    background: #5e42b0;
+    color: #f5f6f7;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .numb {
+    margin: 22px auto 28px;
+    position: relative;
+  }
+  .numb:after {
+    position: absolute;
+    content: "";
+    background-color: #8f7bc8;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: -5px;
+    border-radius: 2px;
+  }
+  .workit-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 20px;
+    height: 215px;
+  }
+  .workit-article-head {
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: #e7e7e7;
+    font-size: 28px;
+    margin: 0 0 10px;
+  }
+  .workit-text {
+    font-size: 16px;
+    margin: 0;
+    color: #000000;
+  }
+
+  .footer {
+    box-sizing: border-box;
+    background-color: #1d18b1;
+    background-image: url(https://raw.githubusercontent.com/epakneo/epakneo-adaptive/master/img/game_767.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-width: 320px;
+    height: 568px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+    padding: 99px 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer::after {
+    content: "";
+    background-color: #0a0e34;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .surf-logo {
+    box-sizing: border-box;
+    display: flex;
+    width: 72px;
+    height: 74px;
+    background: #5536a5;
+    background: linear-gradient(to top, #50329c, #7751db);
+    z-index: 1;
+    border-radius: 20px;
+  }
+  .surf-logo:hover {
+    opacity: 0.7;
+  }
+  .surf-logo-svg {
+    width: 56px;
+    height: 56px;
+    fill: #ffffff;
+    z-index: 1;
+    margin: auto;
+  }
+  .footer-group {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+    margin: 44px auto 62px;
+  }
+  .footer-head {
+    font-size: 32px;
+    color: #ffffff;
+    box-sizing: border-box;
+    margin: auto;
+  }
+  .footer-text {
+    font-size: 14px;
+    color: #9b8ec1;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  .footer-logo-surface {
+    margin-top: 75px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 133px;
+    position: relative;
+    z-index: 1;
+  }
+  .footer-logo-surface:hover {
+    opacity: 0.7;
   }
 }
