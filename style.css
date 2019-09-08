@@ -8,29 +8,389 @@ body {
 
 @font-face {
   font-family: Open Sans;
-  src: url(fonts\OpenSans-Regular.woff);
+  src: url(https://github.com/Epakneo/epakneo-adaptive/blob/master/fonts/OpenSans-Regular.woff);
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: Open Sans;
-  src: url(fonts\OpenSans-Bold.woff);
+  src: url(https://github.com/Epakneo/epakneo-adaptive/blob/master/fonts/OpenSans-Bold.woff);
   font-weight: 700;
   font-style: normal;
 }
 
 @media (max-width: 640px) {
   .header {
-    min-width: 320px;
-    padding-top: 33px;
+    box-sizing: border-box;
     background-color: #1d18b1;
-    background-image: url(img\football_767.jpg);
+    background-image: url(https://raw.githubusercontent.com/epakneo/epakneo-adaptive/master/img/football_767.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 568px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+    padding: 32px 20px 84px;
+  }
+  .header::after {
+    content: "";
+    background-color: #0a0e34;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
   }
   .container {
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
     width: 133px;
+    position: relative;
+    z-index: 1;
+  }
+  .logo-surface {
+    fill: #ffffff;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+    margin: 123px auto 75px;
+  }
+  .head {
+    font-size: 28px;
+    color: #ffffff;
+    box-sizing: border-box;
+    margin: auto 0;
+  }
+  .slogan {
+    font-size: 28px;
+    color: #ffffff;
+    line-height: 34px;
+    margin: 15px 22px auto auto;
+    max-width: 214px;
+    box-sizing: border-box;
+  }
+  .buttons {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  .button {
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: #5e42b0;
+    margin-top: 14px;
+    padding: 5px;
+    border-radius: 50px;
+  }
+  .button:hover {
+    opacity: 0.7;
+  }
+  .icon {
+    width: 24px;
+    fill: #ffffff;
+  }
+  .button-name {
+    margin-left: 6px;
+    font-size: 8px;
+  }
+
+  .athlets {
+    box-sizing: border-box;
+    min-width: 320px;
+    padding-top: 25px;
+    height: 1008px;
+    position: relative;
+    padding: 13px 0 0;
+  }
+  .athlets:before {
+    position: absolute;
+    content: "";
+    background-image: url(https://raw.githubusercontent.com/epakneo/epakneo-adaptive/master/img/footballer_192.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 1;
+    height: 420px;
+    width: 100%;
+  }
+  .athlets-head {
+    box-sizing: border-box;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #e7e7e7;
+    margin: 0 20px 233px;
+  }
+  .athlets-connection-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 213px;
+    background: #fafafa;
+  }
+  .athlets-connection-head {
+    box-sizing: border-box;
+    margin: 0 20px 20px;
+    text-transform: uppercase;
+    color: #c1c1c1;
+    font-size: 23px;
+  }
+  .athlets-01 {
+    box-sizing: border-box;
+    position: relative;
+    font-size: 14px;
+    color: #000000;
+    vertical-align: top;
+  }
+  .athlets-01:after {
+    position: absolute;
+    content: "";
+    background-color: #5e42b0;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: -5px;
+    border-radius: 2px;
+  }
+  .athlets-01-text {
+    font-size: 15px;
+    margin: 0 20px;
+    color: #000000;
+  }
+
+  .athlets-collaboration-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 262px;
+    background: #f5f4f9;
+  }
+  .athlets-collaboration-head {
+    box-sizing: border-box;
+    margin: 0 20px 20px;
+    text-transform: uppercase;
+    color: #c1c1c1;
+    font-size: 23px;
+  }
+  .athlets-02 {
+    box-sizing: border-box;
+    position: relative;
+    font-size: 14px;
+    color: #000000;
+    vertical-align: top;
+  }
+  .athlets-02:after {
+    position: absolute;
+    content: "";
+    background-color: #5e42b0;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: -5px;
+    border-radius: 2px;
+  }
+  .athlets-02-text {
+    font-size: 15px;
+    margin: 0 20px;
+    color: #000000;
+  }
+
+  .athlets-growth-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 227px;
+    background: #5e42b0;
+  }
+  .athlets-growth-head {
+    box-sizing: border-box;
+    margin: 0 20px 20px;
+    text-transform: uppercase;
+    color: #c1c1c1;
+    font-size: 23px;
+  }
+  .athlets-03 {
+    box-sizing: border-box;
+    position: relative;
+    font-size: 14px;
+    color: #000000;
+    vertical-align: top;
+  }
+  .athlets-03:after {
+    position: absolute;
+    content: "";
+    background-color: #ffffff;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: -5px;
+    border-radius: 2px;
+  }
+  .athlets-03-text {
+    font-size: 15px;
+    margin: 0 20px;
+    color: #ffffff;
+  }
+
+  .players {
+    box-sizing: border-box;
+    min-width: 320px;
+    padding-top: 25px;
+    height: 935px;
+    position: relative;
+    padding: 13px 0 0;
+  }
+  .players:before {
+    position: absolute;
+    content: "";
+    background-image: url(https://raw.githubusercontent.com/epakneo/epakneo-adaptive/master/img/basketballer_302.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 1;
+    height: 420px;
+    width: 100%;
+  }
+  .players-head {
+    box-sizing: border-box;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #e7e7e7;
+    margin: 0 20px 230px;
+  }
+  .players-connection-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 251px;
+    background: #fafafa;
+  }
+  .players-connection-head {
+    box-sizing: border-box;
+    margin: 0 20px 20px;
+    text-transform: uppercase;
+    color: #c1c1c1;
+    font-size: 23px;
+  }
+  .players-01 {
+    box-sizing: border-box;
+    position: relative;
+    font-size: 14px;
+    color: #000000;
+    vertical-align: top;
+  }
+  .players-01:after {
+    position: absolute;
+    content: "";
+    background-color: #5e42b0;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: -5px;
+    border-radius: 2px;
+  }
+  .players-01-text {
+    font-size: 15px;
+    margin: 0 20px;
+    color: #000000;
+  }
+
+  .players-collaboration-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 192px;
+    background: #f5f4f9;
+  }
+  .players-collaboration-head {
+    box-sizing: border-box;
+    margin: 0 20px 20px;
+    text-transform: uppercase;
+    color: #c1c1c1;
+    font-size: 23px;
+  }
+  .players-02 {
+    box-sizing: border-box;
+    position: relative;
+    font-size: 14px;
+    color: #000000;
+    vertical-align: top;
+  }
+  .players-02:after {
+    position: absolute;
+    content: "";
+    background-color: #5e42b0;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: -5px;
+    border-radius: 2px;
+  }
+  .players-02-text {
+    font-size: 15px;
+    margin: 0 20px;
+    color: #000000;
+  }
+
+  .players-growth-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 189px;
+    background: #090c35;
+  }
+  .players-growth-head {
+    box-sizing: border-box;
+    margin: 0 20px 20px;
+    text-transform: uppercase;
+    color: #c1c1c1;
+    font-size: 23px;
+  }
+  .players-03 {
+    box-sizing: border-box;
+    position: relative;
+    font-size: 14px;
+    color: #8765dd;
+    vertical-align: top;
+  }
+  .players-03:after {
+    position: absolute;
+    content: "";
+    background-color: #ffffff;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: -5px;
+    border-radius: 2px;
+  }
+  .players-03-text {
+    font-size: 15px;
+    margin: 0 20px;
+    color: #ffffff;
   }
 }
