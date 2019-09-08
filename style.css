@@ -139,6 +139,15 @@ body {
     color: #e7e7e7;
     margin: 0 20px 233px;
   }
+  .athlets-group {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .athlets-connection-list {
+    background: #fafafa;
+  }
   .athlets-connection-article {
     display: flex;
     flex-direction: column;
@@ -146,7 +155,6 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     height: 213px;
-    background: #fafafa;
   }
   .athlets-connection-head {
     box-sizing: border-box;
@@ -178,6 +186,9 @@ body {
     color: #000000;
   }
 
+  .athlets-collaboration-list {
+    background: #f5f4f9;
+  }
   .athlets-collaboration-article {
     display: flex;
     flex-direction: column;
@@ -185,7 +196,6 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     height: 262px;
-    background: #f5f4f9;
   }
   .athlets-collaboration-head {
     box-sizing: border-box;
@@ -217,6 +227,9 @@ body {
     color: #000000;
   }
 
+  .athlets-growth-list {
+    background: #5e42b0;
+  }
   .athlets-growth-article {
     display: flex;
     flex-direction: column;
@@ -224,7 +237,6 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     height: 227px;
-    background: #5e42b0;
   }
   .athlets-growth-head {
     box-sizing: border-box;
@@ -281,6 +293,15 @@ body {
     color: #e7e7e7;
     margin: 0 20px 222px;
   }
+  .players-group {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .players-connection-list {
+    background: #fafafa;
+  }
   .players-connection-article {
     display: flex;
     flex-direction: column;
@@ -288,7 +309,6 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     height: 251px;
-    background: #fafafa;
   }
   .players-connection-head {
     box-sizing: border-box;
@@ -320,6 +340,9 @@ body {
     color: #000000;
   }
 
+  .players-collaboration-list {
+    background: #f5f4f9;
+  }
   .players-collaboration-article {
     display: flex;
     flex-direction: column;
@@ -327,7 +350,6 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     height: 192px;
-    background: #f5f4f9;
   }
   .players-collaboration-head {
     box-sizing: border-box;
@@ -359,6 +381,9 @@ body {
     color: #000000;
   }
 
+  .players-growth-list {
+    background: #090c35;
+  }
   .players-growth-article {
     display: flex;
     flex-direction: column;
@@ -366,7 +391,6 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     height: 189px;
-    background: #090c35;
   }
   .players-growth-head {
     box-sizing: border-box;
