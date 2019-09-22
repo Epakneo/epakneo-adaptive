@@ -729,12 +729,15 @@ body {
     z-index: 1;
     margin: auto;
     min-height: 168px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .footer-head {
     font-size: 32px;
     color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
     box-sizing: border-box;
-    margin: 0;
   }
   .footer-text {
     font-size: 14px;
@@ -1471,6 +1474,8 @@ body {
     margin-top: auto;
     margin-bottom: 100px;
     min-height: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .footer-head {
     font-size: 80px;
@@ -2195,10 +2200,11 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
-    min-height: 455px;
+    margin-top: 75px;
+    min-height: 431px;
+    width: 900px;
   }
   .surf-logo {
     box-sizing: border-box;
@@ -2224,12 +2230,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     position: relative;
     z-index: 1;
-    margin: auto;
-    margin-left: 28px;
+    margin-top: 0;
+    width: 700px;
   }
   .footer-head {
     box-sizing: border-box;
