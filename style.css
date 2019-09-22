@@ -112,6 +112,7 @@ body {
     display: flex;
     width: 100%;
     max-width: 280px;
+    height: 35px;
     justify-content: center;
     background: #5e42b0;
     margin-top: 14px;
