@@ -847,6 +847,7 @@ body {
     color: #ffffff;
     display: flex;
     width: 47%;
+    height: 77px;
     justify-content: center;
     background: #5e42b0;
     margin-top: 14px;
@@ -1603,6 +1604,7 @@ body {
     color: #ffffff;
     display: flex;
     width: 47%;
+    height: 77px;
     justify-content: center;
     background: #5e42b0;
     margin-top: 14px;
