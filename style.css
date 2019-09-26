@@ -141,17 +141,7 @@ body {
     width: 100%;
     position: relative;
   }
-  .athlets:before {
-    position: absolute;
-    content: "";
-    background-image: url(https://raw.githubusercontent.com/epakneo/epakneo-adaptive/master/img/footballer_192.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    z-index: -1;
-    height: 290px;
-    width: 70%;
-    margin-top: 75px;
-  }  
+   
   .athlets-head {
     box-sizing: border-box;
     align-self: flex-start;
@@ -160,6 +150,16 @@ body {
     color: #e7e7e7;
     margin: 18px 20px 233px;
   }
+  .athlets:after {
+    position: absolute;
+    content: "";
+    background-image: url(https://raw.githubusercontent.com/epakneo/epakneo-adaptive/master/img/footballer_192.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 290px;
+    width: 70%;
+    top: 80px;
+  } 
   .athlets-group {
     padding: 0;
     margin: 0;
@@ -169,7 +169,6 @@ body {
     flex-direction: column;
     min-width: 320px;
     width: 100%;
-    z-index: -2;
   }
   .athlets-connection-list {
     background: #fafafa;
@@ -203,7 +202,8 @@ body {
     position: relative;
     font-size: 14px;
     color: #000000;
-    vertical-align: top;
+    vertical-align: 30%;
+    margin-right: 10px;
   }
   .athlets-01:after {
     position: absolute;
@@ -212,7 +212,7 @@ body {
     width: 100%;
     height: 4px;
     left: 0;
-    bottom: -5px;
+    bottom: -2px;
     border-radius: 2px;
   }
   .athlets-01-text {
@@ -253,7 +253,8 @@ body {
     position: relative;
     font-size: 14px;
     color: #000000;
-    vertical-align: top;
+    vertical-align: 30%;
+    margin-right: 10px;
   }
   .athlets-02:after {
     position: absolute;
@@ -262,7 +263,7 @@ body {
     width: 100%;
     height: 4px;
     left: 0;
-    bottom: -5px;
+    bottom: -2px;
     border-radius: 2px;
   }
   .athlets-02-text {
@@ -303,7 +304,8 @@ body {
     position: relative;
     font-size: 14px;
     color: #000000;
-    vertical-align: top;
+    vertical-align: 30%;
+    margin-right: 10px;
   }
   .athlets-03:after {
     position: absolute;
@@ -312,7 +314,7 @@ body {
     width: 100%;
     height: 4px;
     left: 0;
-    bottom: -5px;
+    bottom: -2px;
     border-radius: 2px;
   }
   .athlets-03-text {
@@ -337,7 +339,6 @@ body {
     background-image: url(https://raw.githubusercontent.com/epakneo/epakneo-adaptive/master/img/basketballer_302.png);
     background-repeat: no-repeat;
     background-position: center center;
-    z-index: -1;
     height: 260px;
     width: 95%;
     margin-top: 85px;
@@ -359,7 +360,6 @@ body {
     flex-direction: column;
     min-width: 320px;
     width: 100%;
-    z-index: -2;
   }
   .players-connection-list {
     background: #fafafa;
@@ -393,7 +393,8 @@ body {
     position: relative;
     font-size: 14px;
     color: #000000;
-    vertical-align: top;
+    vertical-align: 30%;
+    margin-right: 10px;
   }
   .players-01:after {
     position: absolute;
@@ -402,7 +403,7 @@ body {
     width: 100%;
     height: 4px;
     left: 0;
-    bottom: -5px;
+    bottom: -2px;
     border-radius: 2px;
   }
   .players-01-text {
@@ -443,7 +444,8 @@ body {
     position: relative;
     font-size: 14px;
     color: #000000;
-    vertical-align: top;
+    vertical-align: 30%;
+    margin-right: 10px;
   }
   .players-02:after {
     position: absolute;
@@ -452,7 +454,7 @@ body {
     width: 100%;
     height: 4px;
     left: 0;
-    bottom: -5px;
+    bottom: -2px;
     border-radius: 2px;
   }
   .players-02-text {
@@ -493,7 +495,8 @@ body {
     position: relative;
     font-size: 14px;
     color: #8765dd;
-    vertical-align: top;
+    vertical-align: 30%;
+    margin-right: 10px;
   }
   .players-03:after {
     position: absolute;
@@ -502,7 +505,7 @@ body {
     width: 100%;
     height: 4px;
     left: 0;
-    bottom: -5px;
+    bottom: -2px;
     border-radius: 2px;
   }
   .players-03-text {
@@ -886,7 +889,6 @@ body {
     content: "";
     background-image: url(https://raw.githubusercontent.com/epakneo/epakneo-adaptive/master/img/footballer_497.png);
     background-repeat: no-repeat;
-    z-index: -1;
     height: 650px;
     width: 70%;
     left: -180px;
@@ -911,7 +913,6 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     width: 100%;
-    z-index: -2;
   }
   .athlets-connection-list {
     background: #ffffff;
@@ -945,7 +946,8 @@ body {
     position: relative;
     font-size: 18px;
     color: #000000;
-    vertical-align: top;
+    vertical-align: 35%;
+    margin-right: 13px;
   }
   .athlets-01:after {
     position: absolute;
@@ -954,7 +956,7 @@ body {
     width: 100%;
     height: 5px;
     left: 0;
-    bottom: -5px;
+    bottom: -4px;
     border-radius: 2px;
   }
   .athlets-01-text {
@@ -995,7 +997,8 @@ body {
     position: relative;
     font-size: 18px;
     color: #000000;
-    vertical-align: top;
+    vertical-align: 35%;
+    margin-right: 13px;
   }
   .athlets-02:after {
     position: absolute;
@@ -1004,7 +1007,7 @@ body {
     width: 100%;
     height: 5px;
     left: 0;
-    bottom: -5px;
+    bottom: -4px;
     border-radius: 2px;
   }
   .athlets-02-text {
@@ -1045,7 +1048,8 @@ body {
     position: relative;
     font-size: 18px;
     color: #000000;
-    vertical-align: top;
+    vertical-align: 35%;
+    margin-right: 13px;
   }
   .athlets-03:after {
     position: absolute;
@@ -1054,7 +1058,7 @@ body {
     width: 100%;
     height: 5px;
     left: 0;
-    bottom: -5px;
+    bottom: -4px;
     border-radius: 2px;
   }
   .athlets-03-text {
@@ -1079,7 +1083,6 @@ body {
     background-image: url(https://raw.githubusercontent.com/epakneo/epakneo-adaptive/master/img/basketballer_436.png);
     background-repeat: no-repeat;
     background-position: right;
-    z-index: -1;
     height: 520px;
     width: 70%;
     margin-top: 85px;
@@ -1091,6 +1094,7 @@ body {
     text-transform: uppercase;
     color: #e7e7e7;
     margin: 80px auto 22px 25px;
+    width: 60%;
   }
   .players-group {
     margin: 0;
@@ -1100,7 +1104,6 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     width: 100%;
-    z-index: -2;
   }
   .players-connection-list {
     background: #ffffff;
@@ -1134,7 +1137,8 @@ body {
     position: relative;
     font-size: 18px;
     color: #000000;
-    vertical-align: top;
+    vertical-align: 35%;
+    margin-right: 13px;
   }
   .players-01:after {
     position: absolute;
@@ -1143,7 +1147,7 @@ body {
     width: 100%;
     height: 5px;
     left: 0;
-    bottom: -5px;
+    bottom: -4px;
     border-radius: 2px;
   }
   .players-01-text {
@@ -1185,7 +1189,8 @@ body {
     position: relative;
     font-size: 18px;
     color: #000000;
-    vertical-align: top;
+    vertical-align: 35%;
+    margin-right: 13px;
   }
   .players-02:after {
     position: absolute;
@@ -1194,7 +1199,7 @@ body {
     width: 100%;
     height: 5px;
     left: 0;
-    bottom: -5px;
+    bottom: -4px;
     border-radius: 2px;
   }
   .players-02-text {
@@ -1236,7 +1241,8 @@ body {
     position: relative;
     font-size: 18px;
     color: #8765dd;
-    vertical-align: top;
+    vertical-align: 35%;
+    margin-right: 13px;
   }
   .players-03:after {
     position: absolute;
@@ -1245,7 +1251,7 @@ body {
     width: 100%;
     height: 5px;
     left: 0;
-    bottom: -5px;
+    bottom: -4px;
     border-radius: 2px;
   }
   .players-03-text {
@@ -1645,10 +1651,9 @@ body {
     content: "";
     background-image: url(https://raw.githubusercontent.com/epakneo/epakneo-adaptive/master/img/footballer_566.png);
     background-repeat: no-repeat;
-    z-index: -1;
     height: 920px;
-    width: 60%;
-    left: 5%;
+    width: 570px;
+    right: 45%;
     margin-top: 28px;
   }  
   .athlets-head {
@@ -1669,7 +1674,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    z-index: -2;
   }
   .athlets-connection-list {
     background: #ffffff;
@@ -1704,7 +1708,8 @@ body {
     position: relative;
     font-size: 18px;
     color: #000000;
-    vertical-align: top;
+    vertical-align: 45%;
+    margin-right: 14px;
   }
   .athlets-01:after {
     position: absolute;
@@ -1713,7 +1718,7 @@ body {
     width: 100%;
     height: 5px;
     left: 0;
-    bottom: -5px;
+    bottom: -6px;
     border-radius: 2px;
   }
   .athlets-01-text {
@@ -1755,7 +1760,8 @@ body {
     position: relative;
     font-size: 18px;
     color: #000000;
-    vertical-align: top;
+    vertical-align: 45%;
+    margin-right: 14px;
   }
   .athlets-02:after {
     position: absolute;
@@ -1764,7 +1770,7 @@ body {
     width: 100%;
     height: 5px;
     left: 0;
-    bottom: -5px;
+    bottom: -6px;
     border-radius: 2px;
   }
   .athlets-02-text {
@@ -1806,7 +1812,8 @@ body {
     position: relative;
     font-size: 18px;
     color: #000000;
-    vertical-align: top;
+    vertical-align: 45%;
+    margin-right: 14px;
   }
   .athlets-03:after {
     position: absolute;
@@ -1815,7 +1822,7 @@ body {
     width: 100%;
     height: 5px;
     left: 0;
-    bottom: -5px;
+    bottom: -6px;
     border-radius: 2px;
   }
   .athlets-03-text {
@@ -1839,11 +1846,10 @@ body {
     content: "";
     background-image: url(https://raw.githubusercontent.com/epakneo/epakneo-adaptive/master/img/basketballer_991.png);
     background-repeat: no-repeat;
-    z-index: -1;
     height: 820px;
-    width: 55%;
+    width: 1000px;
     margin-top: 29px;
-    right: 0;
+    left: 40%;
   }  
   .players-head {
     box-sizing: border-box;
@@ -1851,6 +1857,7 @@ body {
     text-transform: uppercase;
     color: #e7e7e7;
     margin: 80px auto 80px 6%;
+    width: 50%;
   }
   .players-group {
     margin: 0;
@@ -1861,7 +1868,6 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     width: 100%;
-    z-index: -2;
   }
   .players-connection-list {
     background: #ffffff;
@@ -1895,7 +1901,8 @@ body {
     position: relative;
     font-size: 18px;
     color: #000000;
-    vertical-align: top;
+    vertical-align: 45%;
+    margin-right: 14px;
   }
   .players-01:after {
     position: absolute;
@@ -1904,7 +1911,7 @@ body {
     width: 100%;
     height: 5px;
     left: 0;
-    bottom: -5px;
+    bottom: -6px;
     border-radius: 2px;
   }
   .players-01-text {
@@ -1946,7 +1953,8 @@ body {
     position: relative;
     font-size: 18px;
     color: #000000;
-    vertical-align: top;
+    vertical-align: 45%;
+    margin-right: 14px;
   }
   .players-02:after {
     position: absolute;
@@ -1955,7 +1963,7 @@ body {
     width: 100%;
     height: 5px;
     left: 0;
-    bottom: -5px;
+    bottom: -6px;
     border-radius: 2px;
   }
   .players-02-text {
@@ -1998,7 +2006,8 @@ body {
     position: relative;
     font-size: 18px;
     color: #8765dd;
-    vertical-align: top;
+    vertical-align: 45%;
+    margin-right: 14px;
   }
   .players-03:after {
     position: absolute;
@@ -2007,7 +2016,7 @@ body {
     width: 100%;
     height: 5px;
     left: 0;
-    bottom: -5px;
+    bottom: -6px;
     border-radius: 2px;
   }
   .players-03-text {
