@@ -4,18 +4,18 @@ body {
 }
 
 .page {
-  font-family: Open Sans, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 @font-face {
-  font-family: Open Sans;
+  font-family: 'Open Sans';
   src: url(https://github.com/epakneo/epakneo-adaptive/blob/master/fonts/OpenSans-Regular.woff);
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Open Sans;
+  font-family: 'Open Sans';
   src: url(https://github.com/epakneo/epakneo-adaptive/blob/master/fonts/OpenSans-Bold.woff);
   font-weight: 700;
   font-style: normal;
@@ -78,21 +78,26 @@ body {
     width: 100%;
   }
   .head {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 28px;
     color: #ffffff;
     box-sizing: border-box;
-    align-self: flex-start;
-    margin: 0;
+    margin-left: 0;
+    margin-right: auto;
   }
   .slogan {
+    display: block;
     font-size: 28px;
     color: #ffffff;
     line-height: 34px;
     margin-left: auto;
-    align-self: flex-end;
     max-width: 214px;
     box-sizing: border-box;
-    margin: 0;
+    margin-right: 0;
   }
   .buttons {
     box-sizing: border-box;
@@ -127,16 +132,21 @@ body {
     fill: #ffffff;
   }
   .button-name {
+    display: block;
     margin-left: 6px;
     font-size: 8px;
+  }
+  .button-name2 {
+    display: block;
+    margin-left: 6px;
+    font-size: 8px;
+    font-weight: bold;
   }
   
   .athlets {
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
     min-width: 320px;
     width: 100%;
     position: relative;
@@ -150,23 +160,20 @@ body {
     color: #e7e7e7;
     margin: 18px 20px 233px;
   }
-  .athlets:after {
+  .athlets:before {
     position: absolute;
     content: "";
     background-image: url(https://raw.githubusercontent.com/epakneo/epakneo-adaptive/master/img/footballer_192.png);
     background-repeat: no-repeat;
     background-position: center center;
     height: 290px;
-    width: 70%;
-    top: 80px;
+    width: 100%;
+    margin-top: 85px;
   } 
   .athlets-group {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     min-width: 320px;
     width: 100%;
   }
@@ -327,8 +334,6 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
     min-width: 320px;
     width: 100%;
     position: relative;
@@ -340,7 +345,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     height: 260px;
-    width: 95%;
+    width: 100%;
     margin-top: 85px;
   }  
   .players-head {
@@ -355,9 +360,6 @@ body {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     min-width: 320px;
     width: 100%;
   }
@@ -870,16 +872,21 @@ body {
     fill: #ffffff;
   }
   .button-name {
+    display: block;
     margin-left: 28px;
     font-size: 14px;
+  }
+  .button-name2 {
+    display: block;
+    margin-left: 28px;
+    font-size: 14px;
+    font-weight: bold;
   }
   
   .athlets {
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
     min-width: 320px;
     width: 100%;
     position: relative;
@@ -909,9 +916,6 @@ body {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     width: 100%;
   }
   .athlets-connection-list {
@@ -1071,8 +1075,6 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
     min-width: 320px;
     width: 100%;
     position: relative;
@@ -1085,7 +1087,7 @@ body {
     background-position: right;
     height: 520px;
     width: 70%;
-    margin-top: 85px;
+    margin-top: 100px;
     right: 0;
   }  
   .players-head {
@@ -1100,9 +1102,6 @@ body {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     width: 100%;
   }
   .players-connection-list {
@@ -1632,16 +1631,21 @@ body {
     fill: #ffffff;
   }
   .button-name {
+    display: block;
     margin-left: 28px;
     font-size: 14px;
+  }
+  .button-name2 {
+    display: block;
+    margin-left: 28px;
+    font-size: 14px;
+    font-weight: bold;
   }
   
   .athlets {
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
     min-width: 320px;
     width: 100%;
     position: relative;
@@ -1671,8 +1675,6 @@ body {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    display: flex;
-    flex-direction: column;
     width: 100%;
   }
   .athlets-connection-list {
@@ -1835,8 +1837,6 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
     min-width: 320px;
     width: 100%;
     position: relative;
@@ -1864,9 +1864,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     width: 100%;
   }
   .players-connection-list {
