@@ -85,6 +85,8 @@ body {
     box-sizing: border-box;
     margin-left: 0;
     min-height: 72px;
+    width: 100%;
+    max-width: 500px;
   }
   .slogan {
     display: flex;
@@ -96,7 +98,6 @@ body {
     color: #ffffff;
     margin-left: auto;
     margin-right: 0;
-    padding-lef: 42px;
     width: 85%;
   }
   .buttons {
@@ -149,9 +150,7 @@ body {
     flex-wrap: wrap;
     min-width: 320px;
     width: 100%;
-    
   }
-   
   .athlets-head {
     position: relative;
     box-sizing: border-box;
@@ -160,8 +159,9 @@ body {
     text-transform: uppercase;
     color: #e7e7e7;
     margin: 18px 20px 233px;
+    width: 100%;
   }
-  .athlets:before {
+  .athlets-head:before {
     position: absolute;
     content: "";
     background-image: url(https://raw.githubusercontent.com/epakneo/epakneo-adaptive/master/img/footballer_192.png);
@@ -169,7 +169,7 @@ body {
     background-position: center center;
     height: 290px;
     width: 100%;
-    margin-top: 85px;
+    bottom: -290px;
   } 
   .athlets-group {
     padding: 0;
@@ -210,7 +210,7 @@ body {
     position: relative;
     font-size: 14px;
     color: #000000;
-    vertical-align: 30%;
+    vertical-align: 6px;
     margin-right: 10px;
   }
   .athlets-01:after {
@@ -261,7 +261,7 @@ body {
     position: relative;
     font-size: 14px;
     color: #000000;
-    vertical-align: 30%;
+    vertical-align: 6px;
     margin-right: 10px;
   }
   .athlets-02:after {
@@ -312,7 +312,7 @@ body {
     position: relative;
     font-size: 14px;
     color: #000000;
-    vertical-align: 30%;
+    vertical-align: 6px;
     margin-right: 10px;
   }
   .athlets-03:after {
@@ -337,9 +337,18 @@ body {
     flex-wrap: wrap;
     min-width: 320px;
     width: 100%;
-    position: relative;
   }
-  .players:before {
+  .players-head {
+    position: relative;
+    box-sizing: border-box;
+    align-self: flex-start;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #e7e7e7;
+    margin: 18px 20px 233px;
+    width: 100%;
+  }
+  .players-head:before {
     position: absolute;
     content: "";
     background-image: url(https://raw.githubusercontent.com/epakneo/epakneo-adaptive/master/img/basketballer_302.png);
@@ -347,16 +356,8 @@ body {
     background-position: center center;
     height: 260px;
     width: 100%;
-    margin-top: 85px;
+    bottom: -260px;
   }  
-  .players-head {
-    box-sizing: border-box;
-    align-self: flex-start;
-    font-size: 50px;
-    text-transform: uppercase;
-    color: #e7e7e7;
-    margin: 18px 20px 233px;
-  }
   .players-group {
     padding: 0;
     margin: 0;
@@ -396,7 +397,7 @@ body {
     position: relative;
     font-size: 14px;
     color: #000000;
-    vertical-align: 30%;
+    vertical-align: 6px;
     margin-right: 10px;
   }
   .players-01:after {
@@ -447,7 +448,7 @@ body {
     position: relative;
     font-size: 14px;
     color: #000000;
-    vertical-align: 30%;
+    vertical-align: 6px;
     margin-right: 10px;
   }
   .players-02:after {
@@ -498,7 +499,7 @@ body {
     position: relative;
     font-size: 14px;
     color: #8765dd;
-    vertical-align: 30%;
+    vertical-align: 6px;
     margin-right: 10px;
   }
   .players-03:after {
@@ -831,6 +832,8 @@ body {
     box-sizing: border-box;
     margin-left: 0;
     min-height: 150px;
+    width: 100%;
+    max-width: 900px;
   }
   .slogan {
     display: flex;
@@ -956,7 +959,7 @@ body {
     position: relative;
     font-size: 18px;
     color: #000000;
-    vertical-align: 35%;
+    vertical-align: 8px;
     margin-right: 13px;
   }
   .athlets-01:after {
@@ -1007,7 +1010,7 @@ body {
     position: relative;
     font-size: 18px;
     color: #000000;
-    vertical-align: 35%;
+    vertical-align: 8px;
     margin-right: 13px;
   }
   .athlets-02:after {
@@ -1058,7 +1061,7 @@ body {
     position: relative;
     font-size: 18px;
     color: #000000;
-    vertical-align: 35%;
+    vertical-align: 8px;
     margin-right: 13px;
   }
   .athlets-03:after {
@@ -1142,7 +1145,7 @@ body {
     position: relative;
     font-size: 18px;
     color: #000000;
-    vertical-align: 35%;
+    vertical-align: 8px;
     margin-right: 13px;
   }
   .players-01:after {
@@ -1194,7 +1197,7 @@ body {
     position: relative;
     font-size: 18px;
     color: #000000;
-    vertical-align: 35%;
+    vertical-align: 8px;
     margin-right: 13px;
   }
   .players-02:after {
@@ -1246,7 +1249,7 @@ body {
     position: relative;
     font-size: 18px;
     color: #8765dd;
-    vertical-align: 35%;
+    vertical-align: 8px;
     margin-right: 13px;
   }
   .players-03:after {
@@ -1594,6 +1597,8 @@ body {
     color: #ffffff;
     box-sizing: border-box;
     margin-left: 0;
+    width: 100%;
+    max-width: 1260px;
   }
   .slogan {
     display: flex;
@@ -1719,7 +1724,7 @@ body {
     position: relative;
     font-size: 18px;
     color: #000000;
-    vertical-align: 45%;
+    vertical-align: 11px;
     margin-right: 14px;
   }
   .athlets-01:after {
@@ -1771,7 +1776,7 @@ body {
     position: relative;
     font-size: 18px;
     color: #000000;
-    vertical-align: 45%;
+    vertical-align: 11px;
     margin-right: 14px;
   }
   .athlets-02:after {
@@ -1823,7 +1828,7 @@ body {
     position: relative;
     font-size: 18px;
     color: #000000;
-    vertical-align: 45%;
+    vertical-align: 11px;
     margin-right: 14px;
   }
   .athlets-03:after {
@@ -1907,7 +1912,7 @@ body {
     position: relative;
     font-size: 18px;
     color: #000000;
-    vertical-align: 45%;
+    vertical-align: 11px;
     margin-right: 14px;
   }
   .players-01:after {
@@ -1959,7 +1964,7 @@ body {
     position: relative;
     font-size: 18px;
     color: #000000;
-    vertical-align: 45%;
+    vertical-align: 11px;
     margin-right: 14px;
   }
   .players-02:after {
@@ -2012,7 +2017,7 @@ body {
     position: relative;
     font-size: 18px;
     color: #8765dd;
-    vertical-align: 45%;
+    vertical-align: 11px;
     margin-right: 14px;
   }
   .players-03:after {
